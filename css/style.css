@@ -1,12 +1,24 @@
-
-  
-element.style {
-    margin: 0px;
-    background: #0e0e0e;
-    height: 100%;
-}
-
 body {
-    display: block;
+    background-color: blueviolet;
 }
 
+@media screen and (min-width:480px) {
+
+    body {
+        background-color: rgb(114, 242, 225);
+    }    
+}
+
+@media screen and (min-width:768px) {
+
+    body {
+        background-color: darkgoldenrod;
+    }    
+}
+
+@media screen and (min-width:1024px) {
+
+    body {
+        background-color: green;
+    }    
+}
